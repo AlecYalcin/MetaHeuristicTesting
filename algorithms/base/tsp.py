@@ -128,7 +128,7 @@ class Grid():
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print(
-            "./grid.py <n> <archive>"
+            "./tsp.py <n> <archive>"
             "<n> - quantidade de pontos na grid "
             "<archive> - nome do arquivo para salvar"
         )
