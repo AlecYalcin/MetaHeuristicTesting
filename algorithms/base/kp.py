@@ -26,7 +26,9 @@ class Knapsack():
         items: list[Item] = ...,
     ):
         self.limit = limit
-        self.items = items if isinstance(items, list) else [] 
+        if items == ...:
+            items = []
+        self.items = items
 
         self.weight = 0
         self.value = 0

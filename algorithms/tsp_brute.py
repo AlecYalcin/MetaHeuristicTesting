@@ -1,5 +1,5 @@
 import sys
-from ..tsp import (
+from base import (
     Grid,
     Point,
     total_distance,
